@@ -1,0 +1,114 @@
+/* styles for my research project*/
+
+/* heading styles*/
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family:'PT Sans', sans-serif;
+}
+
+.second-title {
+  font-size: 40px;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  min-width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1.5em 0;
+  opacity: .7;
+  background: #4B0082;
+  text-align: center;
+  border: 0px solid #000;
+}
+
+/*byline for my name*/
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'PT Sans';
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  min-width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 1.5em 0;
+  opacity: .7;
+  background: #4B0082;
+  border: 0px solid #000;
+}
+
+.container {
+  font-size: 1.4em;
+  color: #4B0082;
+  font-family: 'PT Sans';
+  font-weight: normal;
+
+  .italic {
+  font-size: 1em;
+  color: #4B0082;
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: normal;
+  }
+
+  .italic1 {
+  font-size: 1em;
+  color: #4B0082;
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: bold;
+  }
+
+  /*footer styles*/
+
+  footer {
+    text-align: center;
+    font-family: 'PT Sans';
+    line-height: 180%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    min-width: 300px;
+    padding: 2em 0;
+    background: #000000;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  /*media queries*/
+
+@media (max-width: 650px) {
+  p {
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+  .chapter-head {
+    font-size: 1.25em;
+  }
+  .hero-head {
+    font-size: 1.5em;
+  }
+  .gallery {
+    padding left: 10px;
+    padding right: 10px;
+  }
+  .speech-bubble {
+    padding left: 20px;
+    padding right: 20px;
+  }
+}
